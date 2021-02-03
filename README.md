@@ -34,6 +34,8 @@ After getting your first taste on FizzBuzz lets do something a little more real 
 
 Again, we have made the tests for you, you just need to implemented code code to make those tests pass.
 
+There are some helper functions properties given to you to help you mock the data, and for reference an entire API response so that you can see the structure of the data.
+
 ### A little more tricky - <think of example>
   
   If you've done the first two challanges then you are ready to take your next step.
