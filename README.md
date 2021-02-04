@@ -58,7 +58,7 @@ Again, we have made the tests for you, you just need to implemented code code to
 
 There are some helper functions properties given to you to help you mock the data, and for reference an entire API response so that you can see the structure of the data.
 
-### Write your own tests - Onject Mapping
+### Write your own tests - Object Mapping
   
 In the first two challanges you've created a simple FizzBuzz fucntion, and written an app to extract data from an API JSON.
 
