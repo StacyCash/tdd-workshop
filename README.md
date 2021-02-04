@@ -3,30 +3,52 @@ A set of TDD workshops, from into to complex to help you get started using this 
 
 ## Lanuages
 
-Currently our workshops are available in C# and JS.
+Currently our workshops are available in C#, and shortly in JS.
 
-If you would like to add a language here, please sub mit a PR - we'd love to have you on board!
+If you would like to add a language here, please sub mit a PR - we'd love to have more languages added!
 
+## Prerequisites
+
+### TDD Basics
+
+You should have some afinity with the basics of TDD. This is a great talk to get you started
+
+<a href="https://www.youtube.com/watch?v=6FBmeTGN5Pk" target="_blank">TDD and the Terminator - An introduction to Test Driven Development - Layla Porter - NDC Oslo 2020</a>
+
+### Language Knowledge
+
+You should have a basic afinity with the language that you are writing your tests in.
+
+These workshops focus on the TDD aspect of the development and so we are not using complex objects, patterns or DI.
 
 ## Workshops
+
+We have three workshops at present:
+
+* Getting started: FizzBuzz
+* Step it up a gear: Mapping objects
+* Starting to stand on your own feet: More Object Mapping
 
 As with the language support, if you would like to add a workshop please send us a PR!
 
 ### Your first TDD - FizzBuzz
 
-We are going to build FizzBuzz, and get you started on your test first journey at the same time.
+We are starting with FizzBuzz - four simple rules:
 
-To make things a little easier for you, we've written the tests already! You can concentrate on just getting the code running.
+* If a number is divisible by 3 return 'Fizz'
+* If a number is divisible by 5 return 'Buzz'
+* If a number is divisible by 3 and 5 return 'FizzBuzz'
+* Otherwise return the number as string
 
-Rules:
+To help you on your journey this workshop includes all tests, and the empty functinon.
 
-Each test is it's own part of the workshop. If you are staying focused, and only implmenting what you need for the test, then you should be able to make each test green before moving to the next.
+You task is to make each of the tests go green in turn.
 
-If you do make multiple tests go from red to green in one change then see if you can undo it and make a smaller change!
+> Remeber: We want to write the simplest code for each test. Your code should not make more than one test go green for each change that you do. If multiple tests go from red to green with one code change then you've done too much. Undo the change and try again!
 
-(And, of course, if a test is green it should stay green!)
+Once a test is green it should stay green. If your new code breaks an old test, fix the problem before moving on.
 
-Don't worry about refactoring, and making your code pretty until all your tests are green - concentrate on gettings those tests passing first!)
+Don't refactor more than you need to ensure that all passing tests remain green whilst working through the workshop. When all tests are green you can do your refactoring!
 
 ### Step it up a gear - Object mapping!
 
@@ -36,10 +58,20 @@ Again, we have made the tests for you, you just need to implemented code code to
 
 There are some helper functions properties given to you to help you mock the data, and for reference an entire API response so that you can see the structure of the data.
 
-### A little more tricky - <think of example>
+### Write your own tests - Onject Mapping
   
-  If you've done the first two challanges then you are ready to take your next step.
-  
-  We are going to <sometomg> for you, and we have given you tests, but they are a little empty. In fact... They all just assert fale is true.
-  
-  You need to look at the description of the test, write the test, and then write the code in order to make it pass! Good luck!
+In the first two challanges you've created a simple FizzBuzz fucntion, and written an app to extract data from an API JSON.
+
+For both of these the focus was on the writing of code to make tests pass, and to make the tests pass in the right order!
+
+Now for something a little more complex. We are extracting data from another API here, previously we had our list of summary information for blog posts, here we are fetching on of the blog posts itself.
+
+If you look in the solution you will see that there is still a model for you to use, a function and test file. But that function and test file are a little empty and currently return exceptions and asset that `false == true`
+
+You need to flesh out the tests to do what the description says before implementing the code to make that test pass.
+
+Our helper functions have also dissapeared - these you will need to make yourself - if you decide you want/need them.
+
+A big challange here is to first make sure that you test fails. Not with the `false == true` asertion, but with actual test code.
+
+Finally... Remember to ensure that you are only making one test pass at a time! When writing your own tests it's easy to get caught up in the moment and go too quickly. Good luck!
