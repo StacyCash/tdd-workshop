@@ -1,7 +1,5 @@
 using FluentAssertions;
-using System;
 using Xunit;
-using ObjectMapperTwo.Adapters;
 
 namespace ObjectMapperTwo.Tests
 {
