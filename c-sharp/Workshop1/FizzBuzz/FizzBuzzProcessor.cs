@@ -1,4 +1,4 @@
-﻿namespace FizzBuzzApp
+﻿namespace FizzBuzz
 {
 	public static class FizzBuzzProcessor
 	{

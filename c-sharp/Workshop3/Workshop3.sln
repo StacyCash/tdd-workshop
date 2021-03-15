@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectMapperTwo", "ObjectMapperTwo\ObjectMapperTwo.csproj", "{1B61B2DA-BFA3-41F1-8425-C8053695FA5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectMapper", "ObjectMapper\ObjectMapper.csproj", "{1B61B2DA-BFA3-41F1-8425-C8053695FA5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectMapperTwo.Tests", "ObjectMapperTwo.Tests\ObjectMapperTwo.Tests.csproj", "{936D99AC-8C10-497F-B75A-6273EE2828F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectMapper.Tests", "ObjectMapper.Tests\ObjectMapper.Tests.csproj", "{936D99AC-8C10-497F-B75A-6273EE2828F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

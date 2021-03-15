@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace ObjectMapperTwo.Adapters
+namespace ObjectMapper.Adapters
 {
 	public class BlogPostAdapter
 	{
-		public void ConvertBlogPostSummary(object p)
+		public void ConvertBlogPostSummary(string jsonInput)
 		{
 			throw new NotImplementedException();
 		}

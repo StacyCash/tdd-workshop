@@ -1,7 +1,7 @@
 using FluentAssertions;
 using Xunit;
 
-namespace ObjectMapperTwo.Tests
+namespace ObjectMapper.Tests
 {
 	public class BlogPostAdapterTests
 	{

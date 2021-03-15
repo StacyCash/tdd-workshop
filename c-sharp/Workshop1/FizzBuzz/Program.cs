@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FizzBuzzApp
+namespace FizzBuzz
 {
 	class Program
 	{
