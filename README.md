@@ -25,10 +25,10 @@ These workshops focus on the TDD aspect of the development and so we are not usi
 
 We have three workshops at present:
 
-* [Getting started](./workshops/workshop-1.md)
-* [Complex objects](./workshops/workshop-2.md)
-* [Complex objects - writing your own test code](./workshops/workshop-3.md)
-* [Complex objects - writing your own test suite](./workshops/workshop-4.md)
-* [Changing existing code](.workshops/workshop-5.md)
+* [Workshop 1: Getting started](./workshops/workshop-1.md)
+* [Wprkshop 2: Complex objects](./workshops/workshop-2.md)
+* [Workshop 3: Complex objects - writing your own test code](./workshops/workshop-3.md)
+* [Workshop 4: Complex objects - writing your own test suite](./workshops/workshop-4.md)
+* [Workshop 5: Changing existing code](.workshops/workshop-5.md)
 
 As with the language support, if you would like to add a workshop please send us a PR!
