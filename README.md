@@ -1,5 +1,5 @@
 # tdd-workshop
-A set of TDD workshops, from into to complex to help you get started using this tool!
+A set of TDD workshops, from introduction to complex problems to help you get started using this tool!
 
 ## Lanuages
 
