@@ -14,10 +14,10 @@ At this point a there is a wonderful quote that I've heard time and time again t
 
 Well... There are two parts that I would like to unpack here.
 
-1. If you do not know what tests you are going to need, then how can you know what code you are going to produce?
+1. If you do not know what tests you are going to need, or what code you are going to be writing, then how are you going to write that code?
 2. What is stopping you from experimenting?
 
-The first point is important when writing code. If you do n ot know enough about the code that you are going to be writing, then how can you write deliberate code to solve a problem - and have it remain maintainable in the future? This is what I call thinking with the keyboard, and rarely does it supply long term high quality code. Rather you will keep on chasing the faults until you arrive at something that is working, but not necessarily high quality code that you are going to want to maintain, or build on.
+The first point is important when writing code. If you do not know enough about the code that you are going to be writing, then how can you write deliberate code to solve a problem - and have it remain maintainable in the future? This is what I call thinking with the keyboard, and rarely does it supply long term high quality code. Rather you will keep on chasing the faults until you arrive at something that is working, but not necessarily high quality code that you are going to want to maintain, or build on.
 
 For the second point I would like to introduce the concept of micro-spiking.
 
