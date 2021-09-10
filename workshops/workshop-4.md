@@ -19,8 +19,9 @@ Well... There are two parts that I would like to unpack here.
 
 The first point is important when writing code. If you do n ot know enough about the code that you are going to be writing, then how can you write deliberate code to solve a problem - and have it remain maintainable in the future? This is what I call thinking with the keyboard, and rarely does it supply long term high quality code. Rather you will keep on chasing the faults until you arrive at something that is working, but not necessarily high quality code that you are going to want to maintain, or build on.
 
-// TODO: Add link to GeePawHill on micro spiking
 For the second point I would like to introduce the concept of micro spiking.
+
+> I'd recommend taking some time right now to read [this](https://www.geepawhill.org/2020/06/02/an-intro-to-spikes/) post before continuing.
 
 You do not know what you need to do to solve your problem. You want to experiment, play with the code and see what works.
 
