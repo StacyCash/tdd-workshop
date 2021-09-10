@@ -1,6 +1,6 @@
 # Create your own test suite
 
-> Coming soon!
+> Workshop code coming soon!
 
 Now that you have implemented simple solutions, complex solutions and fleshed out your own tests it's time to start to think about what you would like to test.
 
